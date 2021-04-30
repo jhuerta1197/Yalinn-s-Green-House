@@ -6,6 +6,7 @@ body{
     margin: 0 auto;
     width: 960px;
     margin-top: 50px;
+    background-color: #283618;
 }
 
 #header{
@@ -23,10 +24,88 @@ body{
 h1{
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 100px;
     font-weight: 1500;
     color:  #606c38;
     font-family: 'Great Vibes', cursive;
     font-size: 100px;
-    border: 5px solid #606c38;
+    border: 5px solid #BC6C25;
+    background-color: rgba(255, 255, 255, .5);
 }
+
+#sec2{
+    height: 500px;
+    background-color: #FEFAE0;
+    margin: 0 auto;
+}
+
+#imgy{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    position: relative;
+    top: 100px;
+    left: 25px;
+
+}
+
+.about{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+}
+
+#sec3{
+    height: 500px;
+    margin: 0 auto;
+    background-color: #DDA15E;
+}
+
+#sec3 img{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    position: relative;
+    top: 100px;
+}
+
+#footer{
+    height: 500px;
+    margin: 0 auto;
+    background-color: #10120d;
+}
+
+#footer-form{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#footer-form h4{
+    margin: 0;
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
+#sitemap{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+}
+
+#sitemap h4{
+    text-align: center
+}
+
+#sitemap a{
+    text-decoration: none;
+    
