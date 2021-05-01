@@ -1,5 +1,6 @@
 body{
     background-image: url(https://images.unsplash.com/photo-1617520998927-40e2633f6557?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80);
+
 }
 
 #main-nav{
@@ -12,6 +13,7 @@ body{
 #header{
     width: 960px;
     height: 500px;
+    margin: 0 auto;
     background-color: white;
     background-image: url(https://images.unsplash.com/photo-1604762524889-3e2fcc145683?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80);
     opacity: ;
@@ -37,6 +39,7 @@ h1{
     height: 500px;
     background-color: #FEFAE0;
     margin: 0 auto;
+    width: 960px;
 }
 
 #imgy{
@@ -59,6 +62,7 @@ h1{
 
 #sec3{
     height: 500px;
+    width: 960px;
     margin: 0 auto;
     background-color: #DDA15E;
 }
@@ -73,6 +77,7 @@ h1{
 
 #footer{
     height: 500px;
+    width: 960px;
     margin: 0 auto;
     background-color: #10120d;
 }
@@ -98,7 +103,7 @@ h1{
     height: 200px;
     width: 200px;
     position: relative;
-    left: 400px;
+    left: 350px;
     bottom: 100px;
 }
 
@@ -108,4 +113,49 @@ h1{
 
 #sitemap a{
     text-decoration: none;
-    
+    color: white;
+}
+
+.logo2{
+    height: 100px;
+    position: relative;
+    left: 600px;
+    bottom: 320px;
+}
+
+#phone{
+    color: white;
+    position: relative;
+    left: 400px;
+}
+
+#cell-phone{
+    position: relative;
+    bottom: 300px;
+    left: 250px;
+}
+
+.cell-icon{
+    height: 25px;
+    width: 25px;
+
+}
+
+.cell-numb{
+    position: relative;
+    left: 450px;
+    bottom: 25px;
+
+}
+
+@media (max-width: 991px){
+    body{
+    background-image: none;
+    margin: 0;
+    }
+
+    #header{
+        width: 960px;
+    }
+
+}
