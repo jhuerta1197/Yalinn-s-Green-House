@@ -187,6 +187,22 @@ h1{
     bottom: 365px;
 }
 
+.ig-icon{
+    height: 28px;
+    width: 28px;
+    color: white;
+    position: relative;
+    left: 650px;
+    bottom: 360px;
+}
+
+.insta{
+    color: white;
+    position: relative;
+    left: 700px;
+    bottom: 390px;
+}
+
 @media (max-width: 991px){
     body{
     background-image: none;
