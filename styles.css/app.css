@@ -95,6 +95,13 @@ h1{
     text-align: center;
 }
 
+#btn-form{
+    margin-top: 10px;
+    background-color: #283618;
+    color: white;
+    border: 1px solid #3c5025;
+}
+
 .white{
     color: white;
 }
@@ -146,6 +153,38 @@ h1{
     left: 450px;
     bottom: 25px;
 
+}
+
+#mail-icon{
+    height: 25px;
+    width: 25px;
+    color: white;
+    position: relative;
+    bottom: 320px;
+    left: 650px;
+}
+
+.envo{
+    position: relative;
+    left: 700px;
+    bottom: 345px;
+}
+
+.fb-icon{
+    height: 25px;
+    width: 25px;
+    color: white;
+    position: relative;
+    left: 650px;
+    bottom: 340px;
+}
+
+.fb{
+
+    color: white;
+    position: relative;
+    left: 700px;
+    bottom: 365px;
 }
 
 @media (max-width: 991px){
