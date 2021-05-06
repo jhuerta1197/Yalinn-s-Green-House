@@ -5,11 +5,79 @@ body{
 
 #main-nav{
     margin: 0 auto;
-    width: 960px;
+    /* width: 75%; */
     margin-top: 50px;
     background-color: #283618;
 }
 
+#main-sec{
+    /* width: 75%; */
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    background-image: url(https://images.unsplash.com/photo-1604762524889-3e2fcc145683?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main-sec h1{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-weight: 1500;
+    color:  #606c38;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    border: 5px solid #BC6C25;
+    background-color: rgba(255, 255, 255, .5);
+    text-align: center;
+}
+
+#sec2{
+    background-color: #FEFAE0;
+}
+
+div #img-y{
+    object-fit: cover;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
+.about-me{
+    position: relative;
+    top: 25%;
+    width: 75%;
+    padding: 20px;
+    padding-top: 0;
+    text-align: justify;
+    /* border: solid; */
+
+}
+
+p.about-me{
+    height: 45%;
+
+}
+
+#sec3{
+    background-color: #DDA15E;
+    margin: ;
+}
+
+#sec3 img{
+    
+}
+
+
+
+
+
+
+
+
+/* 
 #header{
     width: 960px;
     height: 500px;
@@ -33,7 +101,7 @@ h1{
     font-size: 100px;
     border: 5px solid #BC6C25;
     background-color: rgba(255, 255, 255, .5);
-    width: 930px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -102,6 +170,12 @@ h1{
     background-color: #283618;
     color: white;
     border: 1px solid #3c5025;
+    box-shadow: none;
+
+}
+
+#btn-form:hover{
+    box-shadow: 1px 1px 5px 1px #DDA15E;
 }
 
 .white{
@@ -223,4 +297,4 @@ h1{
         width: 960px;
     }
 
-}
+} */

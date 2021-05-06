@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <nav id="main-nav" class="navbar sticky-top navbar-expand-lg navbar-dark ">
+  <nav id="main-nav" class="container navbar sticky-top navbar-expand-lg navbar-dark ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img
           src="https://images.vexels.com/media/users/3/142904/isolated/preview/b328ffdd1c50214fdfac8a447e74c5f8-plant-circle-logo-by-vexels.png"
@@ -54,7 +54,58 @@
       </div>
     </div>
   </nav>
-  <div id="header" class="">
+  <div id="main-sec" class="container">
+    <div class="row ">
+     <h1 class="">Yalinn's Green House</h1>
+    </div>
+  </div>
+  <div id="sec2" class="container">
+    <div class="row ">
+      <div class="col me-5" >
+        <img src="images/IMG_2105.JPG" id="img-y" class="img-fluid w-75 h-50 " alt="...">
+      </div>
+      <div class="col ms-3 ">
+        <h2 class="about-me">About Me</h2>
+        <p class="about-me overflow-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis natus eos nulla, rerum voluptatum
+          ullam quis odit consectetur aliquid, necessitatibus quam, tempore cupiditate exercitationem repellat!
+          Accusantium id reprehenderit voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          molestias ut sit cum, neque repellendus rem rerum dolor, laudantium fuga dicta at ducimus eos dolore incidunt.
+          Ullam nam impedit minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quo aut excepturi
+          voluptatum, eos temporibus cumque praesentium placeat fugiat ab voluptate. Vitae minus modi, qui quos iure
+          sint eaque unde.</p>
+      </div>
+    </div>
+  </div>
+  <div id="sec3" class="container ">
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-3 m-4">
+        <a href=""> <img
+          src="https://images.unsplash.com/photo-1528475563668-e15742001b92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+          class="rounded w-100 img-fluid" alt="..."></a>
+      </div>
+      <div class="col-3 m-4">
+        <a href=""> <img
+          src="https://images.unsplash.com/photo-1508022463381-46d2f3d3f84a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+          class="rounded w-100 img-fluid  " alt="..."></a>
+      </div>
+      <div class="col-3 m-4">
+        <a href=""> <img
+          src="https://images.unsplash.com/photo-1528563351349-844bf0482bf0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+          class="rounded w-100 img-fluid" alt="..."></a>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  
+  <!-- <div id="header" class="">
     <h1>Yalinn's Green House</h1>
   </div>
   <div id="sec2" class="">
@@ -84,14 +135,14 @@
         class="rounded" alt="..."></a>
   </div>
 
-  <div id="footer" class="">
-    <div id="footer-form">
+  <div id="footer" class="container">
+    <div id="footer-form" class="row ">
       <h4 class="white">Contact Us</h4><br>
-      <div class="mb-3">
+      <div class=" mb-3">
         <label for="fullname" class="white form-label">Full Name</label>
         <input type="text" class="form-control" id="fullname" placeholder="John Doe">
       </div>
-      <div class="mb-3">
+      <div class=" mb-3">
         <label for="exampleFormControlInput1" class="white form-label">Email address</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
@@ -101,17 +152,18 @@
         <button id="btn-form" class="btn">Submit</button>
       </div>
     </div>
-    <div id="sitemap">
-      <h4 class="white">Site Map</h4><br>
-      <a href="index.html" class="row">Home</a>
-      <a href="pc.html" class="row">Plant Care</a>
-      <a href="contact.html" class="row">Contact Us</a>
+    <div id="sitemap" class="row ">
+      <h4 class="white">Site Map</h4>
+      <a href="index.html" class="col">Home</a>
+      <a href="pc.html" class="col">Plant Care</a>
+      <a href="contact.html" class="col">Contact Us</a>
     </div>
-    <div class="info">
+    <div class="info row">
       <img
         src="https://images.vexels.com/media/users/3/142904/isolated/preview/b328ffdd1c50214fdfac8a447e74c5f8-plant-circle-logo-by-vexels.png"
         alt="" class="logo2">
-      <section id="cell-phone"><i id="phone" class="fas fa-phone"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+      <div class="row">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas"
             data-icon="phone" class="svg-inline--fa fa-phone fa-w-16 cell-icon" role="img"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path fill="currentColor"
@@ -120,21 +172,21 @@
           </svg></i>
           <p class="white cell-numb">(123) 456-7890</p>
 
-      </section>
-      <section>
+      </div>
+      <div class="row">
         <svg id="mail-icon" aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg>
         <p class="white envo"> Name@gmail.com</p>
-      </section>
-      <section>
+      </div>
+      <div class="row">
         <a href="https://www.facebook.com/" target="_blank" class="fb-link"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square fa-w-14 fb-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg>
         <p class="fb">Face Book</p>
-      </section></a>
+      </div></a>
       <a href="https://www.instagram.com/" target="_blank" class="insta-link"><section>
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram-square" class="ig-icon svg-inline--fa fa-instagram-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"></path></svg>
         <p class="insta">Instagram</p>
-      </section></a>
+      </div></a>
     </div>
-  </div>
+  </div> -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
