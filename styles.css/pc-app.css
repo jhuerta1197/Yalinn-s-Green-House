@@ -75,30 +75,44 @@ header {
 
 
  #title{ 
-    /* width: 90%; */
     margin:0  auto;
-    /* padding: 50px; */
-    /* height: px; */
-    /* margin-top: 100px; */
     font-weight: 2000; 
-    color:  #ffffff;
+    color:  #606c38;
     font-family: 'Great Vibes', cursive;
     font-size: 100px; 
-    /* border: 5px solid #BC6C25; */
-    /* background-color: rgba(255, 255, 255, .5);
-    text-align: center; */
-    text-shadow: 2px 2px 4px #DDA15E;
+    text-shadow: 2px 2px 4px #000000;
+    border: 5px solid rgb(221,161,94);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    
 }
 
-
+#sec2{
+  background-color: #FEFAE0;
+}
 
 #monstera{
     width: 75%;
 }
 
+#pilea-img{
 
+}
 
+.border-btm{
+  border-bottom: 5px solid rgb(221,161,94);
+  
+}
 
+#pc-head{
+  border: 5px solid rgb(221,161,94);
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: 'Great Vibes', cursive;
+  color:  #606c38;
+  padding: 5px;
+  font-size: 3em;
+  letter-spacing: 3px;
+}
 
 
 
