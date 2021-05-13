@@ -46,6 +46,14 @@ background: linear-gradient(322deg, rgba(40,54,24,1) 4%, rgba(246,243,217,1) 28%
 #footer{
     margin-bottom: 50px;
   }
+
+    .sitelink{
+      color: white;
+  }
+
+  .sitelink:hover{
+    color: #DDA15E;
+  }
   
   
   

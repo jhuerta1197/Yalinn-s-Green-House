@@ -92,6 +92,14 @@ header {
   margin-bottom: 50px;
 }
 
+.sitelink{
+  color: white;
+}
+
+.sitelink:hover{
+color: #DDA15E;
+}
+
 
 
 
