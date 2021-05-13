@@ -25,7 +25,6 @@ background: linear-gradient(322deg, rgba(40,54,24,1) 4%, rgba(246,243,217,1) 28%
     width: 90%;
     margin: 0 auto;
     margin-top: 100px;
-    font-weight: 1500;
     color:  #606c38;
     font-family: 'Great Vibes', cursive;
     font-size: 100px;
@@ -42,7 +41,6 @@ background: linear-gradient(322deg, rgba(40,54,24,1) 4%, rgba(246,243,217,1) 28%
 }
 
 div #img-y{
-    margin: 0 auto;
     object-fit: cover;
     width: 90%;
     height: 25em;
@@ -60,37 +58,11 @@ div #img-y{
 }
 
 p.about-me{
-    height: 45%;
+    height: 75%;
 
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: -5px;
-    left: 105%;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
 
 #sec3{
     background-color: #DDA15E;
-    margin: ;
 }
