@@ -42,3 +42,107 @@ background: linear-gradient(322deg, rgba(40,54,24,1) 4%, rgba(246,243,217,1) 28%
     text-decoration: none;
     color: white;
 }
+
+#footer{
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  
+  /* Show in Large desktops and laptops */
+  @media (min-width: 1200px) {
+  
+    .bgimg {
+            background: rgb(40,54,24);
+            background: linear-gradient(322deg, rgba(40,54,24,1) 4%, rgba(246,243,217,1) 28%, rgba(46,60,30,1) 71%, rgba(254,250,224,1) 100%);
+            background-repeat: no-repeat;
+            background-size:100% auto;
+        }
+    
+    }
+    
+    /*Hide in Other Small Devices */
+    
+    
+    /* Landscape tablets and medium desktops */
+    @media (min-width: 992px) and (max-width: 1199px) {
+    
+          .bgimg {
+            background: rgb(40,54,24);
+            background: linear-gradient(322deg, rgba(40,54,24,1) 4%, rgba(246,243,217,1) 28%, rgba(46,60,30,1) 71%, rgba(254,250,224,1) 100%);
+            background-repeat: no-repeat;
+            background-size:100% auto;
+        }
+    
+    }
+    
+    /* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px) {
+    
+      .bgimg {
+        background-image: none;
+        background: none;
+    }
+  
+    body nav, header, div{
+      min-width: 100%;
+      
+    }
+  
+    body #main-nav{
+      margin-top: 0;
+    }
+  
+    #footer{
+      margin-bottom: 0;
+    }
+  
+    
+    }
+    
+    /* Landscape phones and portrait tablets */
+    @media (max-width: 767px) {
+    
+              .bgimg {
+            background-image: none;
+            background: none;
+        }
+  
+        body nav, header, div{
+          min-width: 100%;
+          
+        }
+  
+        body #main-nav{
+          margin-top: 0;
+        }
+  
+        #footer{
+          margin-bottom: 0;
+        }
+    
+    }
+    
+    /* Portrait phones and smaller */
+    @media (max-width: 480px) {
+    
+      .bgimg {
+        background-image: none;
+        background: none;
+    }
+  
+    body nav, header, div{
+      min-width: 100%;
+      
+    }
+  
+    body #main-nav{
+      margin-top: 0;
+    }
+  
+    #footer{
+      margin-bottom: 0;
+    }
+  
+    }
