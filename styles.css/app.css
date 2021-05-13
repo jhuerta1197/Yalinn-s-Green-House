@@ -67,6 +67,12 @@ p.about-me{
     background-color: #DDA15E;
 }
 
+.form-btn{
+    background-color: rgb(40,54,24);
+    color: white;
+    border-color: rgb(104, 104, 104);
+}
+
 #footer{
     margin-bottom: 50px;
   }
