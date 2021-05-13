@@ -48,14 +48,20 @@ header {
   
   @media (pointer: coarse) and (hover: none) {
     header {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+      background: url('https://images.unsplash.com/photo-1604762524889-3e2fcc145683?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80') black no-repeat center center scroll;
     }
     header video {
       display: none;
     }
   }
 
+#domine{
+    font-family: 'Domine' serif;
+}
 
+.lato{
+    font-family: 'Lato', sans-serif;
+}
 
 
  #title{ 
